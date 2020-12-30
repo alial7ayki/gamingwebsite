@@ -88,9 +88,9 @@ div.theend{
 #prvpage{
   float: right;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  .column {
+  [class*="col-"] {
     width: 100%;
   }
 }
