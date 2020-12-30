@@ -91,7 +91,7 @@ div.theend{
   float: right;
   position: relative; bottom: 23px; right: 50px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;

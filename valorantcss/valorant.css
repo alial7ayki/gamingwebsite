@@ -112,7 +112,7 @@ h5 {
   font-family: sans-serif;
   color: white;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
