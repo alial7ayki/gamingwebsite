@@ -1,0 +1,129 @@
+/* this part will be used for the body to make style the body and design it  */
+body{
+  width: 95%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  background-color: #B1B1B1;
+}
+
+div.title{
+  background-color: #444444;
+}
+
+h1{
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#img1{
+  width: 28%;
+  float: right;
+  border: solid;
+  border-color: #747474;
+}
+/* this class is for the explanation  */
+div.explanation{
+  border: solid;
+  border-color: #0A0708;
+  background-color: #747474;
+  width: 60%;
+}
+
+h2{
+  font-family: sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
+.p1{
+  color: white;
+  font-size: 25px;
+  font-style: oblique;
+}
+/*  this class is to style the text area of the reason why i like the game */
+div.reason{
+  background-color: #747474;
+  width: 60%;
+  border: solid;
+  border-color: #0A0708;
+}
+
+h3{
+  color: white;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+#p2{
+  font-style: oblique;
+  color: white;
+  font-size: 25px;
+}
+/* used this class to disign the theme of the text and how it will look with borders */
+div.character{
+  float: right;
+  background-color: #747474;
+  width: 30%;
+  align-content: center;
+  margin-bottom: 1em;
+}
+
+h4{
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+#char1{
+  float: left;
+  border: solid;
+  width: 30%;
+}
+
+#favchar2{
+  float: right;
+  border: solid;
+  width: 30%;
+}
+
+#gameplay{
+ width: 50%;
+ border: solid;
+}
+
+div.theend{
+  background-color: #747474;
+  border: solid;
+  text-align: center;
+}
+
+#endtitle{
+  font-size: 30px;
+  color: white;
+}
+
+#ali {
+  color: white;
+}
+
+#homepage{
+  float: right;
+}
+
+@media screen and (max-width: 800px) {
+  #img1, div.explanation, div.reason, div.character, #gameplay {
+    width: 100%;
+    float: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #char1 {
+    float: none;
+  }
+}
