@@ -1,0 +1,113 @@
+body{
+  width: 95%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  background-color: #0F1923;
+}
+
+#valoranttitle{
+  background-color: red;
+}
+
+h1{
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#gameexplanation{
+  float: left;
+  border: solid;
+  border-color: #0A0708;
+  background-color: #747474;
+  width: 60%;
+  margin-bottom:1em;
+}
+
+#riot{
+  width: 30%;
+  float: right;
+  border: solid;
+  border-color: white;
+  margin-bottom:1em;
+}
+
+h2{
+  font-family: sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
+#gamereason{
+  clear:both;
+  float:left;
+  background-color: #747474;
+  width: 60%;
+  border: solid;
+  border-color: #0A0708;
+  margin-bottom:1em;
+}
+
+h3{
+  color: white;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+p{
+  font-style: oblique;
+  color: white;
+  font-size: 25px;
+}
+
+h4{
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+#mains{
+  width: 25%;
+  float:  right;
+  text-align: center;
+  margin-bottom:1em;
+}
+
+#jett{
+  width: 50%;
+  float: left;
+}
+
+#omen{
+  width: 50%;
+  float: right;
+}
+
+img.char{
+  width: 80%;
+}
+
+img.gameplay{
+  width:100%;
+}
+
+#rightbtn{
+  float: right;
+}
+
+@media screen and (max-width: 800px) {
+  #gameexplanation, #riot, #gamereason, #mains {
+    width: 100%;
+    float: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #char1 {
+    float: none;
+  }
+}
